@@ -1,3 +1,32 @@
-yolo11x-pose.pt
-yolo11n-pose.pt
+# =====================
+# Large data folders
+# =====================
+data/
+datasets/
+kaggle_dog_tiny/
+SCUT-FBP5500_v2/
+runs/
+aclImdb/
 
+# =====================
+# Model weights / checkpoints
+# =====================
+*.pt
+*.pth
+*.ckpt
+
+# =====================
+# Jupyter notebook cache
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# IDE / environment folders
+# =====================
+.conda/
+.idea/
+
+# =====================
+# Generated result images
+# =====================
+*_results.png
